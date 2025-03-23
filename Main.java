@@ -17,16 +17,24 @@ public class Main{
             //System.out.println("you are not student");
         //}
         
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
         
-        System.out.println("enter ur name");
-        String name= scanner.nextLine();
+        //System.out.println("enter ur name");
+        //String name= scanner.nextLine();
         
-        System.out.println("enter ur age");
-        String age= scanner.nextLine();
+        //System.out.println("enter ur age");
+        //String age= scanner.nextLine();
 
-        scanner.close();
-        System.out.println("hii  "+name+age);
+        //scanner.close();
+        //System.out.println("hii  "+name+age);
+
+        boolean a = true;
+        if (a){
+            System.out.println("a is not a part");
+        }
+        else{
+            System.out.println("a is part ");
+        }
 
 
         
